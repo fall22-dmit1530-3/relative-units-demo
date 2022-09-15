@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* html { font-size: 100% ;} */
+        /* 100% is medium = 16px  */
+
+        /* want 14px to be my default 
+            14 / 16 = 
+        
+        */
+        /* html { font-size: 87.5%;} */
+
+        /* h1 is 74px 
+
+        desired / default
+        
+        74 / 14 = 4.625rem
+        */
+        h1 { font-size: 4.625rem;}
+
+        /*  h2 to be 42px at the 14px default */
+        h2 {
+            font-size: calc(42 / 14 * 1rem);
+            /* font-size: 42px; */
+            /* font-size: 3rem; */
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <h2>Subheading level 2</h2>
+    <h3>Third level</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni maiores nihil consequuntur temporibus repudiandae ducimus atque delectus necessitatibus eius soluta nemo itaque, dolorem quia officiis quaerat aut! Voluptatibus, optio consequuntur?</p>
+
+
+</body>
+</html>
